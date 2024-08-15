@@ -50,7 +50,7 @@ p {
     transition: background 0.3s;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     width: 1in;       /* Set width to 1 inch */
-    height: 1in;      /* Set height to 1 inch */
+    height: 0.5in;      /* Set height to 1 inch */
     justify-content: center; /* Center the content */
     overflow: hidden;  /* Hide any overflow */
     text-align: center; /* Center text within the button */
