@@ -44,17 +44,17 @@ p {
     background: linear-gradient(to right, #ff6b6b, #ff4757);
     color: white;
     text-decoration: none;
-    font-size: 1.0rem;  /* Further reduced font size */
-    padding: 0;        /* Remove padding to control size precisely */
-    border-radius: 10px;  /* Keep the border radius */
+    font-size: 1.0rem;  
+    padding: 0;       
+    border-radius: 10px; 
     transition: background 0.3s;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    width: 3in;       /* Set width to 3 inches */
-    height: 0.5in;      /* Set height to .5 inch */
-    justify-content: center; /* Center the content */
-    overflow: hidden;  /* Hide any overflow */
-    text-align: center; /* Center text within the button */
-    line-height: 1in;  /* Align text vertically within the button */
+    width: 3in;      
+    height: 0.5in;    
+    justify-content: center; 
+    overflow: hidden;
+    text-align: center; 
+    line-height: 1in;  
 }
 
 .github-button:hover {
@@ -62,9 +62,9 @@ p {
 }
 
 .github-logo {
-    width: 0.5in;  /* Adjusted logo size to fit the button */
+    width: 0.5in;  
     height: 0.5in;
-    margin-right: 4px;  /* Adjust spacing as needed */
+    margin-right: 4px;  
 }
 .repository-heading {
     color: #ff6b6b;
@@ -79,11 +79,11 @@ p {
 }
 
 .repository-list li a {
-    color: #1a73e8; /* Default link color */
+    color: #1a73e8; 
     text-decoration: none;
     font-size: 1.2rem;
 }
 
 .repository-list li a:hover {
-    color: #ff6b6b; /* Highlight color on hover */
+    color: #ff6b6b;
 }
