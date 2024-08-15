@@ -44,13 +44,13 @@ p {
     background: linear-gradient(to right, #ff6b6b, #ff4757);
     color: white;
     text-decoration: none;
-    font-size: 0.5rem;  /* Further reduced font size */
+    font-size: 1.0rem;  /* Further reduced font size */
     padding: 0;        /* Remove padding to control size precisely */
     border-radius: 10px;  /* Keep the border radius */
     transition: background 0.3s;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     width: 1in;       /* Set width to 1 inch */
-    height: 0.5in;      /* Set height to 1 inch */
+    height: 0.5in;      /* Set height to .5 inch */
     justify-content: center; /* Center the content */
     overflow: hidden;  /* Hide any overflow */
     text-align: center; /* Center text within the button */
