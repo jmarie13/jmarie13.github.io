@@ -3,42 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your GitHub Pages Site</title>
+    <title>Jennifer's ePortfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .sidebar {
+            width: 250px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .content {
+            flex: 1;
+            padding: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            margin-bottom: 10px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+    </style>
 </head>
 <body>
-     <header>
-    <div class="hero">
+    <header>
         <h1>Building the Future of Data!</h1>
         <h2>Jennifer Gonzalez's Software Engineering & Data Portfolio</h2>
         <a href="https://github.com/jmarie13/Capstone" class="github-button" target="_blank">
             <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" class="github-logo">
             View on GitHub
         </a>
+    </header>
+    
+    <div class="container">
+        <aside class="sidebar">
+            <h3>Table of Contents</h3>
+            <nav>
+                <ul>
+                    <li><a href="capstone.html">Capstone Project</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="coverletter.html">Cover Letter</a></li>
+                    <li><a href="transcript.html">Transcript</a></li>
+                </ul>
+            </nav>
+        </aside>
+        
+        <main class="content">
+            <h3>Professional Self-Assessment</h3>
+            <p><strong>Introduction:</strong> Throughout my journey in software engineering and data science, I have developed a strong foundation in programming, algorithms, data structures, and databases...</p>
+            <p>The rigorous curriculum, coupled with hands-on projects, has provided me with the opportunity to hone my skills...</p>
+            <p>Working on various projects throughout my program has also highlighted the importance of collaboration and communication...</p>
+            <h3>Software Engineering and Design:</h3>
+            <p>One of the most significant projects in my ePortfolio is the CornerGrocer, which I successfully migrated from C++ to Python...</p>
+            <h3>Algorithms and Data Structures:</h3>
+            <p>One of the cornerstones of my education has been the study of data structures and algorithms...</p>
+            <h3>Databases:</h3>
+            <p>My passion for databases is evident in the enhancements I made to the CornerGrocer project...</p>
+            <p>This ePortfolio is a testament to the diverse range of skills and knowledge I have acquired during my time at SNHU...</p>
+        </main>
     </div>
-</header>
-<nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="capstone.html">Capstone</a></li>
-        <li><a href="resume.html">Resume</a></li>
-        <li><a href="coverletter.html">Cover Letter</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-</nav>
-    <main class="content">
-        <h2>Table of Contents</h2>
-        <ul>
-            <li><a href="self_assessment.html">Professional Self Assessment</a></li>
-            <li><a href="capstone.html">Capstone Project</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="coverletter.html">Cover Letter</a></li>
-            <li><a href="transcript.html">Transcript</a></li>
-        </ul>
-    </main>
-
+    
     <footer>
         <p>© 2025 Jennifer Gonzalez</p>
     </footer>
 </body>
 </html>
+
