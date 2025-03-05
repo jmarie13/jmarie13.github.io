@@ -40,6 +40,7 @@ header h2 {
 h3 {
     color: #ff6b6b; /* Ensure h3 headers are pink */
 }
+
 /* Fade-in Animation */
 @keyframes fadeIn {
     from {
@@ -106,6 +107,7 @@ h3 {
     text-decoration: none;
     font-weight: bold;
     transition: transform 0.2s, background 0.3s;
+    margin-top: 10px; /* Add this line to center the button */
 }
 
 .github-button:hover {
@@ -132,6 +134,7 @@ h3 {
     width: 100%; /* Ensures the PDF viewer fills the container */
     height: 600px; /* Adjust the height as needed */
 }
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .container {
