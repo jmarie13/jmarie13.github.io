@@ -142,7 +142,8 @@ header h2 {
 .home-button img.home-logo {
     width: 25px;     
     height: 25px;     
-
+    margin-right: 15px;
+    vertical-align: middle;
 }
 
 /* Hover effect */
