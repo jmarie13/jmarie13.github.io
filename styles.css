@@ -115,6 +115,20 @@ h3 {
     height: 25px !important; /* Force the height */
     margin-right: 10px;
 }
+
+/* Transcript Container Styling */
+.transcript-container {
+    max-width: 1200px; /* Adjust this to control the width of the container */
+    width: 90%; /* Ensures it doesn't stretch too wide on smaller screens */
+    margin: 0 auto; /* Centers the container horizontally */
+    padding: 20px; /* Adds some spacing around the container */
+}
+
+/* Ensure the embedded PDF viewer takes up the full width of its container */
+.transcript-container embed {
+    width: 100%; /* Ensures the PDF viewer fills the container */
+    height: 600px; /* Adjust the height as needed */
+}
 /* Responsive Design */
 @media (max-width: 768px) {
     .container {
@@ -140,16 +154,4 @@ h3 {
         max-width: 1200px; /* Wider on large screens */
     }
 }
-/* Transcript Container Styling */
-.transcript-container {
-    max-width: 1200px; /* Adjust this to control the width of the container */
-    width: 90%; /* Ensures it doesn't stretch too wide on smaller screens */
-    margin: 0 auto; /* Centers the container horizontally */
-    padding: 20px; /* Adds some spacing around the container */
-}
 
-/* Ensure the embedded PDF viewer takes up the full width of its container */
-.transcript-container embed {
-    width: 100%; /* Ensures the PDF viewer fills the container */
-    height: 600px; /* Adjust the height as needed */
-}
