@@ -16,7 +16,7 @@ body {
 .black-box h1,
 .black-box h2,
 .black-box h3 {
-    color: #333; /* Default text color */
+    color: #ff6b6b; /* Pink color for headers inside the black box */
 }
 
 /* Header-specific styles */
@@ -24,18 +24,18 @@ header h1 {
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
-    color: #ff6b6b; /* Ensure header text is white */
+    color: white; /* Ensure header text is white */
 }
 
 header h2 {
     font-size: 1.5rem;
     font-weight: 300;
     margin-bottom: 1rem;
-    color: #ff6b6b; /* Ensure header text is white */
+    color: white; /* Ensure header text is white */
 }
 
 h3 {
-    color: #ff6b6b; /* Ensure h3 headers are red */
+    color: #ff6b6b; /* Ensure h3 headers are pink */
 }
 /* Fade-in Animation */
 @keyframes fadeIn {
