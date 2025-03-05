@@ -1,15 +1,15 @@
+/* General Page Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background: linear-gradient(to bottom right, #ff6b6b, #ffe66d);
     color: #333;
-}
-body {
     opacity: 0;
     animation: fadeIn 0.8s ease-in forwards;
 }
 
+/* Fade-in Animation */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -18,11 +18,8 @@ body {
         opacity: 1;
     }
 }
-.hero {
-    max-width: 800px;
-    margin: auto;
-}
 
+/* Header Styling */
 header {
     background: linear-gradient(to right, #ff6b6b, #ff4757);
     color: white;
@@ -46,6 +43,7 @@ header h2 {
     margin-bottom: 1rem;
 }
 
+/* Navigation Bar */
 nav {
     background: #333;
     text-align: center;
@@ -74,6 +72,8 @@ nav ul li a {
 nav ul li a:hover {
     color: #ffe66d;
 }
+
+/* Main Content Styling */
 .content {
     background: white;
     padding: 2rem;
@@ -108,6 +108,7 @@ nav ul li a:hover {
     transform: scale(1.05);
 }
 
+/* Footer */
 footer {
     background: #333;
     color: white;
@@ -115,6 +116,8 @@ footer {
     padding: 1rem;
     margin-top: 3rem;
 }
+
+/* Heading & Paragraph Styles */
 h3 {
     color: #ff6b6b;
 }
@@ -123,6 +126,8 @@ p {
     line-height: 1.6;
     margin-bottom: 1.5rem;
 }
+
+/* GitHub Button */
 .github-button {
     display: inline-flex;
     align-items: center;
@@ -137,24 +142,18 @@ p {
 }
 
 .github-button:hover {
+    background: linear-gradient(to right, #ff6b6b, #ff4757);
     transform: scale(1.05);
 }
 
+/* GitHub Logo */
 .github-logo {
     width: 25px;
     height: 25px;
     margin-right: 10px;
 }
 
-.github-button:hover {
-    background: linear-gradient(to right, #ff4757, #ff6b6b);
-}
-
-.github-logo {
-    width: 0.5in;  
-    height: 0.5in;
-    margin-right: 4px;  
-}
+/* Repository Links */
 .repository-heading {
     color: #ff6b6b;
     font-size: 1.5rem;
@@ -171,6 +170,7 @@ p {
     color: #1a73e8; 
     text-decoration: none;
     font-size: 1.2rem;
+    transition: color 0.3s ease;
 }
 
 .repository-list li a:hover {
