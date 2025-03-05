@@ -95,10 +95,10 @@ h3 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a subtle shadow */
 }
 
-/* GitHub Button Styling */
+//* GitHub Button Styling */
 .github-button {
-    display: inline-block;
-    align-items: center;
+    display: inline-flex; /* Use flexbox for better alignment */
+    align-items: center; /* Vertically center the icon and text */
     background: linear-gradient(to right, #ff4757, #ff6b6b);
     color: white;
     font-size: 1rem;
@@ -107,7 +107,7 @@ h3 {
     text-decoration: none;
     font-weight: bold;
     transition: transform 0.2s, background 0.3s;
-    margin-top: 10px; /* Add this line to center the button */
+    margin-top: 10px;
 }
 
 .github-button:hover {
@@ -115,10 +115,12 @@ h3 {
     transform: scale(1.05);
 }
 
+/* GitHub Logo Styling */
 .github-button img.github-logo {
     width: 25px !important; /* Force the width */
     height: 25px !important; /* Force the height */
     margin-right: 10px;
+    vertical-align: middle; /* Ensure the icon aligns properly */
 }
 
 /* Transcript Container Styling */
