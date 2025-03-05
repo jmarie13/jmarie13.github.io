@@ -1,9 +1,9 @@
-/* General Page Styles */ 
+/* General Page Styles */
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom right, #ff6b6b, #ffe66d);
+    background: url('https://www.toptal.com/designers/subtlepatterns/uploads/dark_embroidery.png'); /* Subtle texture */
     color: #333;
     display: flex;
     flex-direction: column;
@@ -13,12 +13,11 @@ body {
 
 /* Banner Styling */
 .banner {
-    background: linear-gradient(90deg, #ff7e5f, #feb47b); /* Smooth gradient */
-    padding: 15px 30px;
-    border-radius: 30px;
-    text-align: center;
+    background: linear-gradient(to right, #2c3e50, #4ca1af); /* Smooth gradient */
     color: white;
-    font-size: 1.8rem;
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 24px;
     font-weight: bold;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
     display: inline-block;
@@ -162,4 +161,3 @@ header h2 {
         padding: 15px;
     }
 }
-
