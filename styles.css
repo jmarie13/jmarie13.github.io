@@ -96,7 +96,7 @@ h3 {
 
 /* GitHub Button Styling */
 .github-button {
-    display: inline-flex;
+    display: inline-block;
     align-items: center;
     background: linear-gradient(to right, #ff4757, #ff6b6b);
     color: white;
