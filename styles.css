@@ -20,6 +20,9 @@ body {
 }
 
 /* Header-specific styles */
+header {
+    text-align: center; /* Centers all inline elements (like the button) */
+}
 header h1 {
     font-size: 3rem;
     font-weight: bold;
