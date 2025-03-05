@@ -85,13 +85,11 @@ body {
     transform: scale(1.05);
 }
 
-/* GitHub Logo Styling */
-.github-button .github-logo {
-    width: 25px; /* Ensure the logo stays small */
-    height: 25px; /* Ensure the logo stays small */
+.github-button img.github-logo {
+    width: 25px !important; /* Force the width */
+    height: 25px !important; /* Force the height */
     margin-right: 10px;
 }
-
 /* Responsive Design */
 @media (max-width: 768px) {
     .container {
