@@ -46,7 +46,7 @@ body {
 .content {
     flex: 1;
     padding: 20px;
-    background-color: transparent; 
+    background-color: transparent; /* Remove white background */
     text-align: left;
     display: flex;
     flex-direction: column;
@@ -54,101 +54,8 @@ body {
     height: 100%;
 }
 
-/* Header Styling */
-header {
-    background: linear-gradient(to right, #ff6b6b, #ff4757);
-    color: white;
-    text-align: center;
-    padding: 3rem 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-
-header h1 {
-    font-size: 3rem;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-}
-
-header h2 {
-    font-size: 1.5rem;
-    font-weight: 300;
-    margin-bottom: 1rem;
-}
-
-/* Navigation Sidebar */
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-nav ul li {
-    margin-bottom: 10px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    transition: color 0.3s ease;
-}
-
-nav ul li a:hover {
-    color: #ff4757;
-}
-
-/* Footer */
-footer {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    margin-top: 3rem;
-    width: 100%;
-}
-
-/* Content Headings */
-h3 {
-    color: #ff6b6b;
-}
-
-/* Text Styling */
-p {
-    line-height: 1.6;
-    margin-bottom: 1.5rem;
-    text-align: left;
-}
-
-/* GitHub Button */
-.github-button {
-    display: inline-flex;
-    align-items: center;
-    background: linear-gradient(to right, #ff4757, #ff6b6b);
-    color: white;
-    font-size: 1rem;
-    padding: 10px 15px;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: transform 0.2s, background 0.3s;
-}
-
-.github-button:hover {
-    background: linear-gradient(to right, #ff6b6b, #ff4757);
-    transform: scale(1.05);
-}
-
-/* GitHub Logo */
-.github-logo {
-    width: 25px;
-    height: 25px;
-    margin-right: 10px;
-}
-section.content.black-box {
+/* Centered Black Box Styling */
+.black-box {
     background-color: #000; /* Black background */
     color: #fff; /* White text */
     padding: 20px; /* Inner spacing */
@@ -158,6 +65,7 @@ section.content.black-box {
     margin: 0 auto; /* Centers the box horizontally */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a subtle shadow */
 }
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .container {
@@ -168,5 +76,18 @@ section.content.black-box {
     }
     .content {
         width: 100%;
+    }
+
+    /* Adjust the black box for smaller screens */
+    .black-box {
+        width: 95%; /* Slightly wider on small screens */
+        padding: 15px; /* Reduce padding for smaller screens */
+    }
+}
+
+/* Optional: Wider black box on large screens */
+@media (min-width: 1200px) {
+    .black-box {
+        max-width: 1200px; /* Wider on large screens */
     }
 }
