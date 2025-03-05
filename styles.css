@@ -148,7 +148,7 @@ p {
     height: 25px;
     margin-right: 10px;
 }
-.black-box {
+section.content.black-box {
     background-color: #000; /* Black background */
     color: #fff; /* White text */
     padding: 20px; /* Inner spacing */
