@@ -13,10 +13,7 @@ body {
 
 /* Banner Styling */
 .banner {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
+    font-family: 'Poppins', sans-serif;
     color: white;
     text-align: center;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
