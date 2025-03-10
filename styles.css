@@ -3,7 +3,7 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background: url('https://www.toptal.com/designers/subtlepatterns/uploads/light_embroidery.png'); /* Subtle texture */
+    background: url('https://www.toptal.com/designers/subtlepatterns/uploads/dark_embroidery.png'); /* Subtle texture */
     color: #333;
     display: flex;
     flex-direction: column;
