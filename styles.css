@@ -78,9 +78,12 @@ body {
     backdrop-filter: blur(5px);
     border-left: 5px solid #ff7e5f;
     border-radius: 8px;
-    position: sticky;
-    top: 20px;
-    height: fit-content;
+    
+    position: fixed; /* Keeps it from moving when scrolling */
+    top: 20px; /* Adjusts position */
+    left: 20px; /* Moves it away from the edge */
+    max-height: 80vh; /* Prevents it from taking too much space */
+    overflow-y: auto; /* Enables scrolling within the sidebar */
 }
 
 .sidebar h3 {
@@ -114,6 +117,7 @@ body {
     flex: 1;
     padding: 30px;
     background: white;
+    margin-left: 320px;
     border-radius: 12px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
     display: block;
